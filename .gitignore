@@ -41,11 +41,6 @@ mvnw.cmd
 mvnw
 .mvn*
 
-src/main/resources/application.properties
-*.properties
-src/main/resources/application.properties
-src/main/resources/application.properties
-src/main/resources/application.properties
+
 bin
-src/main/resources/static/
 .metadata/
