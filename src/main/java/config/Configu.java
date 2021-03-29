@@ -29,7 +29,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 	      @ComponentScan("Service")})
 public class Configu {
 
-	 @Value("${db.driver}")
+	 	@Value("${db.driver}")
 	    private String DB_DRIVER;
 
 	    @Value("${db.password}")
