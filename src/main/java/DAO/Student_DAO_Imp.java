@@ -34,6 +34,7 @@ public class Student_DAO_Imp  implements Student_DAO{
 		Session currentSession = sessionFactory.getCurrentSession();
 		Query<Student> query=currentSession.createQuery("from Student", Student.class);
 		List<Student> list=query.getResultList();
+		//
 		return list;
 	}
 
